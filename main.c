@@ -3,19 +3,19 @@
 
 int main()
 {
-    int quantite;
-    float prix;
-    printf ("Quantite de produit est:");
-    scanf("%d", &quantite);
-    printf ("prix de vente est: ");
-    scanf("%f", &prix);
-    while(quantite<0||prix<0){
-        printf("Quantite  de produit est:");
-        scanf("%d", &quantite);
-        printf("prix de vente est:");
-        scanf ("%f", &prix);
+    int Menge;
+    float Preis;
+    printf ("Menge des Produkts ist:");
+    scanf("%d", &Menge);
+    printf ("Verkaufspreis ist: ");
+    scanf("%f", &Preis);
+    while(Menge<0||Preis<0){
+        printf("Menge des Produkts ist:");
+        scanf("%d", &Menge);
+        printf("Verkaufpreis ist:");
+        scanf ("%f", &Preis);
     }
 
-    printf("chiffre d\'affaires est: %.2f", quantite*prix);
+    printf("die Einnahmen sind: %.2f", Menge*Preis);
     return 0;
 }
